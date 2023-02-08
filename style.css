@@ -5,16 +5,25 @@
   padding: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  font-family: "Open Sans";
 }
 
 body {
-  background: black;
+  background: #242B2E;
   height: 100vh;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
 }
 
 header {
   height: 10vh;
-  background-color: bisque;
+  background-color: #E07C24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: #6A1B4D;
 }
 
 /*# sourceMappingURL=style.css.map */
