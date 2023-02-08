@@ -1,0 +1,20 @@
+*::after,
+*,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: black;
+  height: 100vh;
+}
+
+header {
+  height: 10vh;
+  background-color: bisque;
+}
+
+/*# sourceMappingURL=style.css.map */
